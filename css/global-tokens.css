@@ -21,6 +21,9 @@
 
     /* Frame + surfaces */
     --color-frame: var(--color-primary);
+    --color-frame-default: #C3C3C3;
+    --color-frame-accent: var(--color-accent);
+    --color-frame-muted: var(--color-secondary);
     --color-case-study-frame: #313131;
     --color-surface: #fff;
     --color-surface-muted: #E7DBDD;
