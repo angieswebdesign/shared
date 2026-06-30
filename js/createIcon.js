@@ -1,4 +1,4 @@
-import { icons } from 'https://angelawallace.net/cdn/js/icons.js'
+import { icons } from './icons.js'
 
 const svgNS = 'http://www.w3.org/2000/svg'
 
@@ -41,7 +41,6 @@ export function createIcon(name, size = 24) {
   svg.setAttribute('stroke-linecap', 'round')
   svg.setAttribute('stroke-linejoin', 'round')
   svg.setAttribute('aria-hidden', 'true')
-  svg.classList.add('icon')
 
   icon.forEach(node => {
     svg.appendChild(createNode(node))

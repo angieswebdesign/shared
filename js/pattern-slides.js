@@ -1,4 +1,4 @@
-import { createIcon } from '../../shared/js/createIcon.js';
+import { createIcon } from './createIcon.js';
 
 function createButton(label, direction) {
   const button = document.createElement("button");
